@@ -1,0 +1,32 @@
+body{
+
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E5E5;
+    margin: 0px;
+
+}
+
+header{
+
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    height: 70px;
+
+}
+
+section{
+
+    display: flex;
+    height: 19px;
+    width: 223px;
+
+    font-family: "Open Sans", sans-serif;
+    color: #545454;
+
+    margin-left: auto;
+    margin-right: 169px;
+    justify-content: space-evenly;
+
+}
