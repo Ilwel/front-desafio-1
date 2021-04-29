@@ -112,6 +112,14 @@ footer{
     color: #545454;
 }
 
+.card button:hover{
+
+    background-color: #FE0078;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+
 .menu{
 
     background-color: #ffffff;
@@ -180,6 +188,14 @@ ul li{
     color: #545454;
     font-size: 14px;
     border-bottom: 2px dashed #EEEEEE;
+
+}
+
+ul li:hover{
+
+    color: #FE0078;
+    border-bottom: 2px dashed #FE0078;
+    cursor: pointer;
 
 }
 
