@@ -98,7 +98,7 @@ footer{
 
 }
 
-.card button{
+.card a{
 
     all:unset;
     margin-left: auto;
@@ -110,9 +110,10 @@ footer{
     border:1px solid #FE0078;
     border-radius: 20px;
     color: #545454;
+    
 }
 
-.card button:hover{
+.card a:hover{
 
     background-color: #FE0078;
     color: #ffffff;
