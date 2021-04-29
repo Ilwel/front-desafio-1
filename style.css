@@ -64,8 +64,8 @@ footer{
 .conteudo .card{
 
     background-color: #ffffff;
-    height: 730px;
-    width: 696px;
+    height: 696px;
+    width: 730px;
     margin-bottom: 40px;
     display: flex;
     flex-direction: column;
@@ -73,7 +73,7 @@ footer{
 
 }
 
-.card h2{
+.card h2, .post h2{
 
     font-size: 24px;
     font-weight: 700;
@@ -81,7 +81,7 @@ footer{
 
 }
 
-.card small{
+.card small, .post small{
 
     margin-left: 24px;
     margin-bottom: 18px;
@@ -171,14 +171,14 @@ menu .categorias{
 
 }
 
-ul{
+.categorias ul{
     all:unset;
     display: flex;
     flex-direction: column;
 
 }
 
-ul li{
+.categorias ul li{
 
     all:unset;
     display: flex;
@@ -192,7 +192,7 @@ ul li{
 
 }
 
-ul li:hover{
+.categorias ul li:hover{
 
     color: #FE0078;
     border-bottom: 2px dashed #FE0078;
@@ -200,7 +200,7 @@ ul li:hover{
 
 }
 
-li span{
+.categorias li span{
 
     margin-right: auto;
 
@@ -219,5 +219,42 @@ li span{
     font-size: 36px;
     font-weight: 400;
     color: #545454;
+
+}
+
+/* post styles*/
+
+.post{
+
+    background-color: #ffffff;
+    height: 1152px;
+    width: 696px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 5px rgba(109, 108, 108, 0.575);
+
+
+}
+
+.post ul{
+
+    margin: 0;
+
+}
+
+.post p{
+
+    margin-bottom: 16px;
+
+}
+
+.post .text{
+
+    margin: 24px 24px;
+    font-size: 14px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
 
 }
