@@ -98,13 +98,14 @@ footer{
 
 }
 
-.card a{
+.card a, form button{
 
     all:unset;
     margin-left: auto;
     margin-right: 24px;
     margin-bottom: 24px;
     font-size: 14px;
+    font-weight: 700;
 
     padding: 12px 24px;
     border:1px solid #FE0078;
@@ -113,7 +114,7 @@ footer{
     
 }
 
-.card a:hover{
+.card a:hover, form button:hover{
 
     background-color: #FE0078;
     color: #ffffff;
@@ -256,5 +257,93 @@ menu .categorias{
     font-size: 14px;
     line-height: 19px;
     color: #000000;
+
+}
+
+.conteudo form{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nome-email{
+
+   display: grid;
+   grid-template-areas: "label-1 label-2"
+                        "input-1 input-2";
+    gap: 24px;
+
+
+}
+
+.label-1{
+    
+    grid-area: label-1;
+
+}
+
+.label-2{
+
+    grid-area: label-2;
+
+}
+
+.input-1{
+
+    grid-area: input-1;
+
+}
+
+.input-2{
+
+    grid-area:input-2;
+
+}
+
+form h2{
+
+    margin-bottom: 24px;
+    font-size: 24px;
+    line-height: 33px;
+
+}
+
+form input{
+
+    all:unset;
+    height: 42px;
+    width: 354px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-bottom: 24px;
+
+}
+
+form textarea{
+
+    all: unset;
+    height: 176px;
+    width: 732px;  
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-bottom: 48px;
+
+}
+
+form input:hover, form textarea:hover{
+
+    cursor: pointer;
+    border: 1px solid #FE0078;
+
+}
+
+form button{
+
+    margin-right: 0;
 
 }
